@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>form</legend>
+    <div style="background-color: aquamarine;">
+    <center> <form>
+        <h1>login form</h1>
+        <fieldset>
+            <legend>personal information</legend>
+        <label for="username">username:</label> 
+        <input type="text" placeholder="name"><br><br>
+        <label for="email">Gmail:</label>
+        <input type="email" placeholder="gmail">
+        <br><br>
+        <label for="password" style="background-color: chocolate;">password:</label>
+        <input type="password" style="background-color:greenyellow" name="password" id="password">
+        <br><br>
+        <label for="gender" style="background-color: blueviolet;">Gender:</label>
+        <label for="Male" style="background-color: cadetblue;">Male</label>
+        <input type="checkbox" placeholder="Male">
+        <label for="Female" style="background-color: crimson;">Female</label>
+        <input type="checkbox"  placeholder="Female"><br><br>
+    </fieldset>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="file">files</label>
+        <input type="file" placeholder="upload resume"><br><br>
+        <label for="number">phn.no</label>
+        <input type="number" placeholder="mobile number"><br><br>
+        <label for="range">percentage of technical skills</label>
+        <input type="range" name="range" id="range"><br><br>
+        <input type="url" placeholder="resume link if any"><br><br>
+        <label for="Role">Choose your role from the list:</label>
+        <input list="Roles" name="Role" id="Role">
+        <datalist id="Roles">
+          <option value="developer">
+          <option value="system engineer">
+          <option value="Data analyst">
+          <option value="data scientist">
+          <option value="idc i need a job">
+        </datalist><br><br>
+        <textarea name="intro" placeholder="intro">Self introduction</textarea><br><br>
+        <input type="submit" value="submit" style="background-color: gray;">
+    </form></center>
+</div>
+</fieldset>
+</body>
+</html>
